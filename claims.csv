@@ -1,0 +1,101 @@
+claim_id,transaction_id,claim_type,claim_description,claim_status
+CLM0001,TXN00111,Fraud,Cardholder claims card was stolen and used without permission.,Under Investigation
+CLM0002,TXN00156,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Open
+CLM0003,TXN00241,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0004,TXN00356,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Customer Won
+CLM0005,TXN00229,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Under Investigation
+CLM0006,TXN00179,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Merchant Won
+CLM0007,TXN00009,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0008,TXN00338,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Customer Won
+CLM0009,TXN00465,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Open
+CLM0010,TXN00061,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Customer Won
+CLM0011,TXN00254,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Merchant Won
+CLM0012,TXN00384,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0013,TXN00476,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Open
+CLM0014,TXN00392,Fraud,Cardholder claims card was stolen and used without permission.,Under Investigation
+CLM0015,TXN00376,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Open
+CLM0016,TXN00408,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0017,TXN00043,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Merchant Won
+CLM0018,TXN00039,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Merchant Won
+CLM0019,TXN00441,Item Not As Described,The delivered product was damaged or different from the website description.,Under Investigation
+CLM0020,TXN00092,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Merchant Won
+CLM0021,TXN00065,Fraud,Cardholder claims card was stolen and used without permission.,Open
+CLM0022,TXN00152,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Merchant Won
+CLM0023,TXN00445,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Customer Won
+CLM0024,TXN00350,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Merchant Won
+CLM0025,TXN00154,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0026,TXN00407,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Customer Won
+CLM0027,TXN00032,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0028,TXN00287,Fraud,Cardholder claims card was stolen and used without permission.,Open
+CLM0029,TXN00462,Fraud,Cardholder claims card was stolen and used without permission.,Under Investigation
+CLM0030,TXN00272,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Under Investigation
+CLM0031,TXN00281,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Customer Won
+CLM0032,TXN00140,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Merchant Won
+CLM0033,TXN00375,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0034,TXN00011,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Merchant Won
+CLM0035,TXN00221,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0036,TXN00086,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0037,TXN00158,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Merchant Won
+CLM0038,TXN00488,Item Not As Described,The delivered product was damaged or different from the website description.,Open
+CLM0039,TXN00160,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Merchant Won
+CLM0040,TXN00238,Fraud,Cardholder claims card was stolen and used without permission.,Under Investigation
+CLM0041,TXN00020,Item Not As Described,The delivered product was damaged or different from the website description.,Open
+CLM0042,TXN00157,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0043,TXN00325,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Merchant Won
+CLM0044,TXN00322,Fraud,Cardholder claims card was stolen and used without permission.,Under Investigation
+CLM0045,TXN00200,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0046,TXN00159,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0047,TXN00319,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Open
+CLM0048,TXN00424,Fraud,Cardholder claims card was stolen and used without permission.,Open
+CLM0049,TXN00292,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Open
+CLM0050,TXN00425,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Open
+CLM0051,TXN00431,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0052,TXN00400,Fraud,Cardholder claims card was stolen and used without permission.,Open
+CLM0053,TXN00446,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0054,TXN00173,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Merchant Won
+CLM0055,TXN00102,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Open
+CLM0056,TXN00145,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Customer Won
+CLM0057,TXN00027,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0058,TXN00470,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Merchant Won
+CLM0059,TXN00218,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Merchant Won
+CLM0060,TXN00251,Fraud,Cardholder claims card was stolen and used without permission.,Under Investigation
+CLM0061,TXN00264,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0062,TXN00114,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Open
+CLM0063,TXN00142,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Merchant Won
+CLM0064,TXN00058,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Customer Won
+CLM0065,TXN00013,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0066,TXN00006,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0067,TXN00186,Item Not As Described,The delivered product was damaged or different from the website description.,Open
+CLM0068,TXN00201,Fraud,Cardholder claims card was stolen and used without permission.,Under Investigation
+CLM0069,TXN00085,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Under Investigation
+CLM0070,TXN00368,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Merchant Won
+CLM0071,TXN00479,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Customer Won
+CLM0072,TXN00406,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Open
+CLM0073,TXN00365,Item Not As Described,The delivered product was damaged or different from the website description.,Open
+CLM0074,TXN00332,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0075,TXN00367,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Under Investigation
+CLM0076,TXN00057,Item Not As Described,The delivered product was damaged or different from the website description.,Open
+CLM0077,TXN00015,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0078,TXN00416,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0079,TXN00170,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0080,TXN00403,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Merchant Won
+CLM0081,TXN00284,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Customer Won
+CLM0082,TXN00217,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Merchant Won
+CLM0083,TXN00190,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Merchant Won
+CLM0084,TXN00153,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Open
+CLM0085,TXN00224,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0086,TXN00198,Item Not As Described,The delivered product was damaged or different from the website description.,Open
+CLM0087,TXN00405,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Customer Won
+CLM0088,TXN00320,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Customer Won
+CLM0089,TXN00352,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Merchant Won
+CLM0090,TXN00276,Fraud,Cardholder claims card was stolen and used without permission.,Resolved - Merchant Won
+CLM0091,TXN00366,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Resolved - Merchant Won
+CLM0092,TXN00146,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Customer Won
+CLM0093,TXN00093,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Merchant Won
+CLM0094,TXN00434,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Customer Won
+CLM0095,TXN00246,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Customer Won
+CLM0096,TXN00030,Chargeback,Customer initiated a chargeback claiming they didn't recognize the charge.,Resolved - Merchant Won
+CLM0097,TXN00339,Refund Not Received,Customer returned item but refund was not issued after 14 days.,Resolved - Merchant Won
+CLM0098,TXN00206,Item Not As Described,The delivered product was damaged or different from the website description.,Resolved - Merchant Won
+CLM0099,TXN00291,Fraud,Cardholder claims card was stolen and used without permission.,Open
+CLM0100,TXN00452,Unauthorized Transaction,Unrecognized login from a new device resulted in this purchase.,Under Investigation

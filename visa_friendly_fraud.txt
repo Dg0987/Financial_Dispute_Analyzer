@@ -1,0 +1,79 @@
+Contents
+Combating chargebacks
+What is friendly fraud?
+How does friendly fraud work?
+How can enterprises protect against friendly fraud in digital payments?
+How can Visa help fight friendly fraud?
+Use cases
+FAQs
+Combating chargebacks
+Friendly fraud, also known as first party misuse, is a long standing challenge in digital commerce. This form of payment fraud occurs when a cardholder disputes a legitimate purchase, often to obtain a refund while keeping the goods or services. Though sometimes accidental, friendly fraud is quickly becoming a leading cause of chargebacks across the payments ecosystem.
+
+As part of Visa’s focus on combating post-purchase fraud and abuse, including refund and policy misuse, solutions such as Verifi’s Order Insight for CE3.0, Resolve and Visa Dispute Optimization help merchants identify, prevent and resolve friendly fraud more effectively and in doing so, protect both margins and customer relationships.
+
+What is friendly fraud?
+Friendly fraud is when a cardholder disputes a legitimate transaction that they made or someone in their household made. It’s often referred to as first-party misuse because, unlike third-party fraud, which involves stolen credentials, friendly fraud happens when a cardholder falsely claims a purchase was unauthorized or fraudulent. Common scenarios include saying goods weren’t received, disputing an item’s quality or blaming another family member for making the purchase. Friendly fraud can take several forms, including:
+
+Household misuse: When a family member uses a saved card without the cardholder’s full awareness
+Descriptor confusion: Forgetting or failing to recognize a merchant’s name or billing descriptor on a statement
+‘Free goods’ attempts: Disputing valid purchases to keep items without paying for them
+Return-policy abuse: Disputing a charge after using or keeping goods beyond the return window
+Sometimes this behavior stems from a misunderstanding, but other times it represents a deliberate attempt to game the system. Either way, the customer requesting a refund will bypass the merchant’s processes and instead initiate a chargeback. The result is that the merchant often ends up losing revenue, having to pay fees and spending valuable time disputing claims.
+
+How common is friendly fraud?
+Friendly fraud is widespread, representing around 20% of all fraudulent disputes globally — and up to 30% for high-volume online merchants.¹ In some industry surveys, more than half of merchants cite first-party misuse as their primary dispute challenge. Several factors are behind its rise:
+
+Unclear merchant billing descriptors, leading customers to mistake legitimate charges for fraud
+Simplified bank dispute processes, which sometimes allow claims with minimal verification
+Increased consumer awareness of chargeback rights and protections
+These trends can mean even well-intentioned customers contribute to rising first-party misuse rates, underscoring the importance of clear communication, transparent billing and proactive fraud prevention and fraud detection strategies.
+
+How does friendly fraud work?
+It all begins when a cardholder disputes a legitimate transaction. They may claim that their card was lost or stolen, say that goods were never received, dispute the quality of a product or service or deny making the purchase entirely — even though they authorized the payment themselves. In other cases, they may blame another family member for using their card or claim a subscription was cancelled when it wasn’t.
+
+Each of these actions might allow the cardholder to receive a refund from their issuing bank while keeping the goods, services or funds. For example, a customer might purchase a high-value item online, receive the delivery and then file a chargeback stating the item never arrived. Or a cardholder might pay for a digital service, then later dispute the transaction as unauthorized while continuing to use the service. The typical friendly fraud process follows a simple but potentially costly pattern:
+
+The cardholder completes a legitimate transaction for goods or services.
+After fulfillment, they contact their issuing bank and claim the transaction was fraudulent or unauthorized.
+The issuer files a chargeback on behalf of the customer.
+If the merchant cannot provide sufficient compelling evidence to prove the transaction’s legitimacy, the chargeback is upheld.
+The consumer receives a refund, while the merchant loses revenue, the goods provided and/or payment for the service provided.
+Who is affected by friendly fraud?
+Friendly fraud affects merchants of every size and sector, but the impact is most acute in industries with high transaction volumes or complex fulfillment processes. In fact, it’s a growing issue for mid-market and enterprise merchants, who report higher exposure to disputes than smaller businesses. Instances of friendly fraud are especially common in:
+
+Digital goods and subscription services, where proof of an order being fulfilled can be difficult to establish
+Recurring billing models, where customers may forget about renewals and dispute legitimate charges
+High-value retail and travel, where customers sometimes dispute charges after use or delivery
+Smaller merchants, who might lack the resources or technology to effectively manage or challenge chargebacks
+
+When goods are shipped and not returned, merchants experience a loss of inventory. Not only that, additional fees and fines can quickly push up overall dispute costs, while the administrative effort of investigating and responding to claims creates a significant operational burden, meaning staff don’t have the opportunity to focus on core business activities. Over time, repeated incidents can also drive higher chargeback ratios, which may lead to increased acquiring costs or even trigger inclusion in card network monitoring programs.
+
+As merchants increasingly highlight, issuing banks’ dispute processes can unintentionally make it easier for consumers to submit and win fraudulent claims. That’s why combating friendly fraud requires collaboration across the payments ecosystem to help ensure fair outcomes for both customers and businesses.
+
+How can enterprises protect against friendly fraud in digital payments?
+Enterprises and merchants are combating friendly fraud by deploying proactive prevention strategies and leveraging advanced dispute tools. While chargeback technology plays an important part in this, effective protection starts earlier by ensuring data quality, transaction transparency and clear communication throughout the customer journey. Here are five steps you can take to protect against friendly fraud in digital payments:
+
+Strengthen prevention and detection: Implement robust front-end controls to detect and deter friendly fraud before it becomes a chargeback. This includes verifying the consistency of device IDs and IP addresses for repeat purchases, using two-factor authentication for high-value transactions and monitoring customer accounts for abnormal behavior or multiple disputes. By regularly analyzing transaction and chargeback data, it’s possible to uncover emerging fraud patterns and refine prevention strategies.
+Improve customer communication: Customer confusion is one of the most common triggers for friendly fraud. However, clear and recognizable billing descriptors can prevent unnecessary disputes by making it easier to identify purchases correctly. Sending purchase, renewal and delivery notifications — and making sure refund and cancellation policies are easy to find — can help keep orders front of mind. You can further strengthen your position by ensuring that terms and conditions are transparent and confirming them through multiple touchpoints.
+Enhance account and access management: For digital goods and subscription services, it’s important to track usage data to demonstrate fulfilment. Similarly, quickly revoking access after a confirmed chargeback not only prevents ongoing loss but also provides credible evidence should the dispute escalate.
+Leverage compelling evidence rules: A major advancement in dispute management is Visa’s Compelling Evidence 3.0 (CE3.0) framework, which allows invalid chargebacks to be overturned using structured, verifiable data. Train customer service and dispute teams on CE3.0 requirements, such as validating at least two prior undisputed transactions with matching IP addresses or device IDs older than 120 days, to maximize its impact. Similarly, the detailed submission of transaction data (including login records, digital receipts and communication history) can help strengthen each case. Tools like Verifi’s Order Insight for CE3.0 also give issuers and cardholders access to purchase details before a dispute is filed, helping to resolve issues early. In addition, Visa Direct’s Original Credit Transactions can serve as compelling evidence without time constraints.
+Build people, process and collaboration: Technology alone cannot solve the threat of friendly fraud. With this in mind, train customer service teams to resolve dissatisfaction before it escalates into a dispute. Operations teams must maintain accurate fulfilment and communication records, while fraud and risk teams should collaborate closely with finance and compliance to help ensure alignment. Encouraging customers to contact the merchant first — and resolving issues quickly and fairly — can also help prevent unnecessary chargebacks and preserve long-term relationships.
+How can Visa help fight friendly fraud?
+Protecting against friendly fraud requires a comprehensive strategy that spans data analytics, authentication and dispute intelligence. Visa provides a suite of tools designed to help prevent, manage and resolve friendly fraud and, in doing so, reduce chargebacks, protect revenue and ensure fair outcomes for both merchants and consumers.
+
+These solutions support two essential aspects of friendly fraud mitigation: pre-dispute deflection, which helps stop disputes before they’re filed; and chargeback representment, which provides the evidence and data needed to challenge invalid claims successfully.
+
+Verifi’s Order Insight for CE3.0: Enables merchants to share verifiable transaction data — such as login details, IP addresses, device IDs or delivery confirmations — with issuers and cardholders in real time. This data can verify legitimate purchases, help prevent disputes and strengthen a merchant’s case should a chargeback arise.
+Resolve: Streamlines dispute handling by automating the resolution of Visa pre-dispute cases with participating Visa issuers. Merchants can configure specific rules such as refund thresholds, eligible transaction types or qualifying dispute criteria, which allows for the automated resolution of pre-dispute cases with participating Visa issuers. By automatically refunding low-risk or clearly resolvable cases, Resolve helps merchants:
+Reduce the number of chargebacks entering the payments ecosystem
+Eliminate the need for some manual investigations
+Accelerate refunds, in turn improving customer satisfaction
+Create operational efficiencies and free up internal resources
+Visa Dispute Optimization: Helps merchants identify root causes of disputes and track win rates across segments and regions by supporting strategic dispute analytics and automated recovery processes. Through Visa Dispute Optimization, merchants can monitor friendly fraud trends, automate recovery for eligible transactions and integrate dispute intelligence into broader risk-management systems.
+Visa Direct’s Original Credit Transactions: Provides a secure, fast and transparent way for merchants to send funds directly to Visa accounts. As well as improving the customer experience with quicker refunds, Original Credit Transactions play a unique role in dispute resolution: they can be used as compelling evidence within Visa’s Compelling Evidence 3.0 (CE3.0) framework and are not subject to time constraints. This flexibility allows merchants to validate transactions even beyond standard dispute windows, while also resolving issues as they arise to prevent potential chargebacks.
+Use cases
+Enterprise merchants turn data into a defensive advantage
+Nearly 90% of enterprise merchants now use compelling evidence to challenge invalid disputes, which are often linked to first-party misuse or friendly fraud. Among Merchant Risk Council members, data shows this shift has translated into significantly stronger fraud metrics, including higher dispute win rates and lower loss ratios compared to non-Merchant Risk Council members. By integrating transaction data, behavioral insights and network intelligence, these merchants are transforming dispute management from a reactive process into a proactive fraud prevention tool.
+
+SMBs automate resolution
+Small and medium-sized businesses are leveraging Resolve to automate pre-dispute handling and streamline fraud prevention as they scale. Instead of devoting time to manual reviews, businesses can rely on automated resolution rules that instantly process qualifying disputes before they escalate.

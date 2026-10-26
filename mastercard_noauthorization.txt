@@ -1,0 +1,210 @@
+No Cardholder Authorization (Message Reason Codes 4837/37)
+This section provides the issuer and acquirer with the entire dispute process for No Cardholder
+Authorization chargebacks from chargeback to second presentment through pre-arbitration
+and arbitration case filing.
+Refer to the UK Domestic Rules, 5.1.2 Reason Code 4837 UK - No Cardholder Authorisation, for
+additional rules that may apply.
+The issuer may use this chargeback for any of the following:
+• Installment Billing Disputes: This chargeback may be used to charge back the first
+installment submitted under a domestic installment payment arrangement for a fraudrelated reason. In order to keep the integrity of the Fraud Notification Service chargeback
+counters, the issuer must use message reason code 4850-Installment Billing Dispute to
+charge back any subsequent installment payments.
+• A Maestro transaction in which the card was issued in Europe, or the terminal was located in
+Europe or both: Parking garage and tollway magnetic stripe transactions completed without
+CVM.
+• Intra-European and inter-European Maestro transactions completed using signature as the
+CVM at magnetic stripe reading-only POS terminals.
+• Intra-European Maestro Chip POS transactions completed without CVM.
+Transactions ineligible for chargeback
+The issuer may not use this chargeback for any of the following:
+• A face-to-face transaction at an attended terminal with card-read (not key-entered)
+account information, with the following exceptions:
+– An intra-European and inter-European Maestro transaction completed using signature as
+the CVM at magnetic stripe reading-only POS terminals.
+– An intra-European and inter-European Maestro contactless transactions that exceed the
+applicable contactless CVM limit without successful online PIN verification or on-device
+cardholder verification. Refer to the Transaction Processing Rules, section 4.4 Contactless
+Transactions at POS Terminals.
+• A purchase with cash back transaction as well as a cash back transaction without an
+accompanying purchase. A cash back transaction is identified, in authorization or clearing
+messages, with a value of 09 (Purchase with Cashback) in DE 3 (Processing Code) subfield 1
+(Cardholder Transaction Type).
+• A transaction with PIN or CDCVM performed.
+• An intracountry Maestro transaction occurring within France or Ireland which contained a
+value of N (Invalid CVC 2 (non-match)) in DE 48 (Additional Data: Private Use), subelement
+87 Card Validation Code Result) of the Authorization Request Response/0110 message or
+Financial Transaction Request Response/0210 message and approved by the issuer.
+• A Mastercard POS transaction identified as mail order, phone order, or e-commerce which
+contained a value of N (Invalid CVC 2) in DE 48, subelement 87 of the Authorization Request
+Response/0110 message) or Financial Transaction Request Response/0210 message and
+approved by the issuer.
+• A Mastercard Consumer-Presented QR transaction that was properly identified in the
+Authorization Request/0100 message or Financial Transaction Request/0200 message.
+Refer to Appendix B for Mastercard Consumer-Presented QR transactions identification
+requirements.
+• A transaction approved after the Fraud Notification Service (FNS) date. The issuer approved
+the transaction after submitting two or more chargebacks involving the same card account
+(for this purpose, “account” means primary account number [PAN] and expiration date) for
+any of the following message reason codes: 37, 4837, 4870, or 4871.
+• A transaction with an FNS Counter that exceeds 35 fraud-related chargebacks. The issuer
+submitted more than 35 chargebacks in aggregate involving the same account (as defined
+above) for message reason codes 37, 4837, 4870, or 4871.
+• Emergency cash disbursements or emergency travelers check refunds.
+• ATM transactions.
+• A transaction that occurred at a cardholder-activated terminal (CAT) that was: either:
+– Properly identified in the authorization messages and clearing records as CAT Level 1
+(where a PIN is required).
+– Properly identified in the clearing record as CAT Level 3.
+A parking garage or tollway magnetic stripe transaction occurring with a Maestro card
+issued in Europe or at a CAT Level 3 device located in Europe or both which was
+completed without CVM may be charged back.
+A CAT 1 is identified in:
+– Authorization with a value of 1 (Authorized Level 1 CAT: Automated dispensing machine
+with PIN) in DE 61, (Point-of-Service [POS] Data) subfield 10 (Cardholder-Activated
+Terminal Level).
+– Clearing with a value of CT1 (CAT level 1 (automated dispensing machine)) in DE 48
+(Additional Data), PDS 0023 (Terminal Type).
+A CAT 3 is identified in:
+– Authorization with a value of 3 (Authorized Level 3 CAT: Limited-amount terminal) in DE
+61, (Point-of-Service [POS] Data) subfield 10 (Cardholder-Activated Terminal Level).
+– Clearing with a value of CT3 (CAT level 3 (limited amount terminal)) in DE 48 (Additional
+Data), PDS 0023 (Terminal Type).
+Refer to the Transaction Processing Rules, Appendix D Cardholder-Activated Terminal (CAT)
+Transactions for information on CATs.
+– Counterfeit card transactions that occurred at a cardholder-activated terminal (CAT)
+Level 2 that was properly identified in the authorization messages and clearing records as
+CAT Level 2 and where the acquirer transmitted the full unedited card-read (not keyentered) data in the Authorization Request/0100 message and obtained an authorizatiapproval or valid transaction certificate. An exception to the above is an intra-European
+and inter-European Maestro contactless transaction that exceeded the applicable
+contactless CVM limit without successful online PIN verification or on-device cardholder
+Supporting Documentation
+Supporting documentation is documentation typically provided by the cardholder or merchant
+and attached by the issuer or acquirer to the dispute as evidence in support of the chargeback
+or second presentment.
+Supporting documentation requirements vary by dispute type and are described in their
+corresponding sections.
+Images, pictures, or photographs included as supporting documentation must not include sexual
+subject matter of any nature.
+The full PAN must not be visible in supporting documentation. Only the last four digits of the
+PAN may be displayed in supporting documentation. Methods of obscuring the full PAN include,
+but are not limited to, covering the digits with black ink, using a redaction tool offered through
+many software packages, or by replacing the digits with fill characters, such as X, *, or #. The
+chosen method must ensure the full PAN cannot be read or reconstructed.
+Supporting documentation must be provided as follows:
+• For Costa Rica domestic chargeback and second presentment: Supporting documents must
+be provided using the Mastercom application.
+Chargeback supporting documents can be entered into Mastercom at any time before the
+second presentment is processed, however, supporting documents must be entered into the
+Mastercom system within three-business days of generating a chargeback requiring
+supporting documents to avoid liability for the disputed transaction solely for failing to
+provide supporting documents (code 2002).
+Second presentment supporting documents should be entered into the Mastercom system at
+the time the second presentment is processed, however, supporting documents must be
+entered into the Mastercom system within three-business days of generating a second
+presentment requiring supporting documents to avoid liability for the disputed transaction
+solely for failing to provide supporting document (code 4901).
+• For Mainland China domestic chargebacks: Supporting documentation must be uploaded
+into the China Dispute Resolution Platform at the time of submitting the chargeback, second
+presentment, pre-arbitration, or arbitration case (as applicable).
+• For Tanzania domestic chargeback and second presentment: Supporting documents must be
+provided using the Mastercom application.
+Chargeback supporting documents can be entered into Mastercom at any time before the
+second presentment is processed, however, supporting documents must be entered into the
+Mastercom system within three-calendar days of generating a chargeback requiring
+supporting documents to avoid liability for the disputed transaction solely for failing to
+provide supporting documents (code 2002).
+Second presentment supporting documents should be entered into the Mastercom system at
+the time the second presentment is processed, however, supporting documents must be
+entered into the Mastercom system within three-calendar days of generating a second
+presentment requiring supporting documents to avoid liability for the disputed transaction
+solely for failing to provide supporting document (code 4901).
+• For all other disputes: Supporting documentation must be provided using the Mastercom
+application.
+– For chargeback and second presentment: although supporting documentation can be
+entered into Mastercom at any time before the second presentment or pre-arbitration
+case (as applicable) is processed, supporting documentation must be entered into
+Mastercom within one of the following time frames to avoid liability for the disputed
+transaction solely for failing to provide supporting documentation (codes 2002 Nonreceipt of Required Documentation to Support Chargeback or 4901 Required
+Documentation Not Received to Support Second Presentment):
+– For Maestro transactions: Within 10-calendar days of generating a chargeback or
+second presentment requiring supporting documentation.
+– For non-Mastercard BIN Maestro card-not-present (CNP) debit card transactions
+processed on the Single Message System: Within 10-calendar days of generating a
+chargeback or second presentment requiring supporting documentation.
+– For all other transactions: Eight-calendar days of generating a chargeback or second
+If the chargeback supporting documentation is received after the eight or 10-calendar
+day time frame (as applicable) and on the same day as the second presentment,
+Mastercard will not consider the chargeback supporting documentation.
+– For pre-arbitration case filing: Supporting documentation must be provided at the time
+the case is submitted.
+No Cardholder Authorization
+This section details the conditions for addressing a cardholder claim that the cardholder did not
+authorize the transaction.
+Issuer Chargeback
+The issuer may chargeback the transaction when the dispute is not prohibited (refer to the
+previous section), the following conditions are met, and are sufficiently detailed in the
+supporting documentation:
+• The cardholder contacted the issuer claiming that the cardholder did not authorize the
+transaction.
+A company or government agency representative on behalf of a corporate card cardholder
+(when the company or government agency no longer employs the authorized cardholder)
+contacted the issuer claiming that the cardholder did not authorize the transaction.
+• Before processing a chargeback, the issuer must report the transaction as fraud on or before
+the date of the chargeback:
+– For Mainland China domestic transactions: The transaction was reported to the Risk
+Management as fraud in accordance with the China Switch User Guide - Customer Portal.
+– For all other transactions: The transaction was reported as fraud to the Fraud and Loss
+Database in the Fraud Center application on Mastercard Connect in accordance with the
+Fraud and Loss Database User Guide.
+In addition, for a card-read (not key-entered) transaction occurring at a CAT 2 device with a lost,
+stolen, never received (NRI) card, the issuer must:
+• Block the account on its host.
+• For a contactless transaction involving a Mastercard token, deactivate the token.
+• For all transactions except Mainland China domestic transactions: List the primary account
+number (PAN) on the Mastercard Stand-in Account File with a “capture card” response for
+180-calendar days or until card expiration (whichever is shorter).
+For the avoidance of doubt:
+– Listing the PAN on the Mastercard Stand-in Account File is required when the card was
+issued in the Latin America and the Caribbean region.
+– Listing the PAN on the Mastercard Stand-in Account File is not required when the card
+was issued under a BIN or BIN range assigned for Germany when the issuer’s stand-in
+parameters are set to zero to decline all authorization attempts or are managed through
+an alternate host.
+Supporting documents
+One of the following documents must be provided to support the chargeback:
+• Cardholder email, letter, or message (including through a password-protected website)
+provided by the cardholder stating the cardholder did not authorize the transaction.
+In addition, for a lost, stolen, never received (NRI) card-read (not key-entered) transaction
+occurring at a CAT 2 device the cardholder must also state, or the issuer must otherwise
+certify by means of a separate document accompanying the cardholder documentation, that
+the card was lost, stolen, or never received (NRI) at the time of the transaction.
+• Issuer completed Dispute Resolution Form-Fraud (Form 0412) stating the cardholder did not
+authorize the transaction.
+In addition, for a lost, stolen, never received (NRI) card-read (not key-entered) transaction
+occurring at a CAT 2 device the Dispute Resolution Form-Fraud (Form 0412) must state, or
+the issuer must otherwise certify by means of a separate document accompanying the form,
+that the card was lost, stolen, or never received (NRI) at the time of the transaction.
+A completed Dispute Resolution Form-Fraud (Form 0412) must be the direct result of a
+conversation with the cardholder.
+When using the Dispute Resolution Form-Fraud (Form 0412) the issuer must ensure all of the
+following occurred before processing the chargeback:
+– The issuer closed the Mastercard card account.
+– The issuer blocked the account on its host.
+– The issuer listed the account number on the Mastercard Stand-in Account File with a
+“capture card” response for 180-calendar days or until card expiration (whichever is
+shorter).
+This requirement does not apply when one of the following occurred:
+– The transaction was a Mainland China domestic transaction;
+– The card was issued in the Latin America and the Caribbean region, and the
+transaction did not occur at a CAT 2 device; or
+– The card was issued under a BIN or BIN range assigned for Germany when the issuer’s
+stand-in parameters are set to zero to decline all authorization attempts or are
+managed through an alternate host.
+• Written complaint or a completed Dispute Resolution Form-Fraud (Form 0412) form provided
+by a company or government agency representative on behalf of a corporate card cardholder
+when the company or government agency no longer employs the authorized cardholder. A
+completed Dispute Resolution Form-Fraud (Form 0412) must be the direct result of a
+conversation with the company or government agency representative.
+In addition, when the dispute involves multiple transactions and multiple refunds, Mastercard
+recommends that the issuer document all of the disputed transactions and to which disputed
+transaction each refund was applied. If this information is not provided in the chargeback, the
+information will be required in the event a pre-arbitration case is filed.

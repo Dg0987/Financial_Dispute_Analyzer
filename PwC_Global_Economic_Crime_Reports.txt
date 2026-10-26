@@ -1,0 +1,64 @@
+Address the pervasive challenges of economic crime
+
+Global Economic Crime Survey 2024
+Risks are inevitable. It’s whether a company takes, and mitigates, risks intelligently to grow and thrive that sets leaders apart.
+
+In today’s global, interconnected environment, economic crime risk is a pervasive challenge. Geopolitical pressures heighten sanctions and export controls risks. Exposure to bribery and corruption risks expands as global companies enter emerging markets in search of growth. There is increased public and regulatory scrutiny regarding use of forced labour and other ESG responsibilities—not just in companies but anywhere in the supply chains that support them. And, as the mergers and acquisitions market strengthens, acquirers can be exposed to potential fraud or other economic crimes hidden in their new assets. Economic crime risk is more complex than ever before—and it is far more challenging to both create value and protect it.
+
+In parallel, governments around the world are signalling their rising expectations that companies do their part to prevent economic crime and more fully disclose its consequences. Regulatory enforcement activity and cross-border cooperation are increasing in an effort to combat bad actors and the devastating impact their actions can have on individuals, businesses and economies.
+55%
+Reported procurement fraud is a widespread concern in their country, yet a minority are using available tools to identify or combat it.
+42%
+Either don’t have a third-party risk management programme or don’t do any form of risk scoring as part of their programme.
+33%
+Reported that assessing the risk of forced labour in their supply chain is a priority for their company.
+59%
+Agree that export controls have grown more complex and more than half believe controls are being enforced more robustly than two years ago.
+A fresh look at a persistent problem - procurement fraud:
+Fraud, in all of its forms, remains a persistent challenge.
+Procurement fraud–one of the oldest forms of fraud–is still all too common. It is a significant cause for concern for small businesses and multinationals alike, regardless of geography or industry sector.
+
+Our survey shows that procurement fraud, specifically, is among the top three most disruptive economic crimes experienced by companies globally in the past 24 months – just behind cybercrime and corruption.
+
+While data to support diligence efforts on third parties is often plentiful and enterprise resource planning systems reinforce good hygiene in procure-to-pay processes, technology isn’t solely a force for good. In the hands of criminals, advanced technology also enables sophisticated efforts to perpetrate procurement fraud.
+59%
+Of companies completed an enterprise-wide fraud risk assessment in the last 12 months and a further 12% plan to do so within a year.
+72%
+Nearly three-quarters say the board is regularly updated on efforts to investigate allegations or mitigate fraud risk.
+20%
+Close to a fifth of companies do not use data analytics in any way to identify procurement fraud.
+Corruption compliance - rising expectations and missed opportunities:
+Governments around the world are signalling their rising expectations that corporate compliance programmes become more sophisticated. Law enforcement authorities and regulators have raised the bar for third-party risk management as well as the use of data analytics in support of compliance and investigation efforts. New or recently revised protections or incentives for whistleblowers in numerous jurisdictions increase the pressure on companies to learn of and react to allegations of misconduct quickly, whether that conduct is within the company or at a third-party. The decision regarding whether, and to whom, to self-report is as fraught as ever.
+
+More than eight in ten (81%) executives believe government efforts to enforce anti-corruption laws are becoming more robust or remaining steady in the countries in which they operate—that number reaches 92% for companies headquartered in North America.
+Given that third parties are involved in most major incidents of bribery or corruption, the importance of ongoing monitoring of third parties – and robust diligence on higher risk new third parties – cannot be overstated.
+
+Among the components of an effective third-party anti-corruption compliance programme, risk scoring, monitoring and audits are all critical.
+Supply chain - protecting human rights in supply chains:
+Rising public scrutiny and a rapidly evolving regulatory landscape are placing increased pressure on companies to identify and mitigate risks associated with forced labour and other human rights abuses in their supply chains. Many of the new and emerging regulations in the EU, are mandating supply chain mapping and human rights-related risk assessments. Furthermore, in March 2024 the European Council and Parliament announced a provisional agreement to prohibit products made with forced labour.
+
+In the US, intensifying enforcement has been largely focused on supply chain forced labour risks and, in particular, potential violations of the Uyghur Forced Labor Prevention Act (UFLPA).xiii US Customs and Border Protection detained $1.42 billion in shipments in 2023 as part of its UFLPA enforcement, impacting sectors including automotive, apparel, electronics, pharmaceutical products, and others.
+More than one in three executives globally (34%) believe assessing the risk of forced labour in their supply chain is a priority for their company and that nearly 50% of those in Western Europe have done a risk assessment or are planning one in the coming year.
+Export controls and sanctions - complexity and geopolitical tensions:
+Geopolitics, including the Russia-Ukraine conflict, tensions between China and the US, and uncertainty in the Middle East, gives rise to the export controls and sanctions regulatory environment in which businesses around the world must operate. While the US government, including its Justice, Treasury and Commerce departments, is driving many of these developments, other countries’ alignment with these policies is increasing. Multinational companies, whether they support the underlying policy priorities, have little choice but to heed these legislative and regulatory changes.
+
+Our research suggests that the business community is indeed paying attention to these developments. Among executives surveyed, 59% agree that export controls have grown more complex in the last two years. This percentage rises to 69% for companies with greater than $5 billion in annual revenue and those in North America.
+Much like their keen awareness of export controls risk, nearly half of companies consider sanctions risk compliance a significant priority. Nearly two-thirds place the possibility of third parties engaging in impermissible activity as a top two sanctions risk, which is a more than 20-point difference from other risks queried.
+Economic crime prevention - what organisational leadership can do:
+Given the complexity and constantly changing environment, senior management and board members should also have an active role in addressing the organisational plan for mitigating these risks. To accomplish this, we offer specific actions.
+
+Legal and compliance
+Benchmark the compliance programme against most recent regulatory expectations and peer best practices.
+Revisit risk assessment processes to incorporate leading practices.
+Assess sufficiency of third-party risk management approach.
+Support case for investment in analytics, including AI and GenAI.
+Ensure alignment with the CEO and board regarding the nexus between growth and risk.
+Internal audit
+Identify strategies for collaboration with legal and compliance, including regarding risk assessments and onsite audits.
+Consider data and technology tools that could be shared or co-developed.
+Identify areas where data analytics and automation can enhance controls.
+Boards & business executives
+Reconsider if briefings on each type of risk are of sufficient frequency and insight.
+Help break down functional silos that may be interfering with effective compliance and risk mitigation.
+Encourage collaboration between first, second, and third line to increase efficiency and effectiveness.
+PwC’s 2024 Global Economic Crime Survey is the latest in a series of studies dating back more than 20 years. In our research, conducted between January and March 2024, PwC surveyed nearly 2,500 companies across 63 territories. Two-thirds of respondents were C-suite executives—including 450 General Counsel, Chief Compliance Officers and Chief Audit Executives—and 40% were from companies with revenues greater than $1 billion. We also conducted over 45 interviews with senior executives from major corporations around the world to discuss their leading practices. This body of research gave us a unique lens on how today’s boards and business leaders are addressing the economic crime risks their organisations are navigating daily. PwC Research, PwC’s global Centre of Excellence for market research and insight, conducted this survey.

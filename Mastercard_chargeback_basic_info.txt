@@ -1,0 +1,233 @@
+Network Processing
+The Single Message System (formerly known as the Mastercard®
+Debit Switch [MDS])
+processes authorization, clearing, and settlement in a single message. Refer to the Mastercard
+Network Single Message System Guide, (formerly known as the Single Message System
+Specifications) and the Single Message Transaction Manager User Guide for detailed information.
+The Dual Message System processes authorization messages through the Authorization
+Platform and clearing/settlement messages through the Global Clearing Management System
+(GCMS). GCMS uses messages in the Integrated Product Messages (IPM) format. Refer to the
+Global Clearing Management System Reference Manual for detailed information on how to
+process messages, currency conversion, and edits. Refer to the Mastercard Network Dual
+Message Clearing System Guide, (formerly known as the IPM Clearing Formats) for message
+formats and data requirements.
+Nigeria domestic transaction disputes must be performed using the Industry and Dispute
+Resolution Systems (IDRS).
+Participation in the dispute resolution processes for chargeback and compliance processing
+requires access to the Mastercom application on Mastercard Connect®
+. Refer to the Mastercom
+User Guide for detailed information.
+The China Switch (CSW) processes authorization, clearing and settlement in a single message.
+CSW is only responsible for switching Mainland China domestic transactions. Refer to the China
+Switch Specifications for detailed information.
+Definitions
+The terms “Customer” and “Standards” as used in this guide have the meaning set forth in the
+Definitions chapter of Mastercard Rules.
+An On-Us transaction is a domestic transaction for which the issuer and acquirer is the same
+Customer.
+A domestic transaction occurs when:
+• The card is issued under a BIN or BIN range assigned to a country or territory; and
+• The terminal is located in the same country or territory.
+The terminal country is defined as DE 43 (Acceptor Name and Location), subfield 5 (Acceptor
+Country Code) for authorization, or as DE 43 (Acceptor Name and Location), subfield 6
+(Acceptor Country Code) for clearing.
+
+Chargeback Cycles and Arbitration Case Filing
+The following table provides an overview of the chargeback cycles, pre-arbitration, and
+arbitration case filing.
+Detailed information can be found in each chapter of this manual.
+In Mainland China, the rules in the "Dual Message System Chargebacks" chapter apply.
+In the European Economic Area (EEA), the chargeback rules apply to all disputed transactions
+regardless of the processor. Please refer to your chosen processor’s documentation for
+processing instructions and for equivalent data elements to those referenced in this guide.
+For Mexico domestic transactions, refer to the Mexico Domestic Switching Implementation Guide
+for dispute resolution information.
+Disputes of a Third Party Processed Transaction
+In the European Economic Area (EEA), Gibraltar, and the United Kingdom, the chargeback rules
+apply to all disputed transactions regardless of the processor.
+Mastercard facilitates submission of the chargeback cycles, pre-arbitration and arbitration case
+filing for third-party processed transactions when both Customers are in the EEA, Gibraltar or
+the United Kingdom and have not agreed to any other dispute resolution procedure as part of
+their third-party processing arrangement. A third-party processed transaction is a transaction
+that is not processed through Mastercard Switching Services.
+An acquirer has the right to reject a chargeback when the acquirer can provide evidence that
+another dispute resolution procedure was agreed to between the parties. This must be done
+within the second presentment cycle.
+These dispute procedures are only available when transactions were processed by a registered
+third-party processor and properly reported as collection-only through the Global Clearing
+Management System, and the issuer has opted into having its third-party processed transaction
+data loaded into Mastercom Claims Manager.
+In addition to fulfilling the applicable requirements found within this guide, the Customers must
+provide support documentation with sufficient detail to enable all parties, including
+Mastercard’s Dispute Resolution Management staff, to understand the dispute. This includes,
+but is not limited to, processing logs, relevant data elements and explanations. Lack of sufficient
+detail may result in an unfavorable ruling decision. New or updated information will not be
+accepted in any appeal.
+
+Table 1: Chargeback Cycles and Arbitration Case Filing overview
+Dispute Single Message Dual Message
+First
+Presentment
+The first presentment occurs when the acquirer submits transaction data through the
+Single or Dual Message System to the issuer for posting to the cardholder’s account.
+In the Single Message System, this is
+a Presentment/0210 message.
+In the Dual Message System, this is a First
+Presentment/1240 message.
+
+Chargeback The issuer may initiate a chargeback when the circumstances of the transaction meet
+the requirement of a chargeback reason code described in the Single Message System
+Chargebacks or Dual Message System Chargebacks chapters.
+A chargeback may be for the total transaction amount or a lesser amount. Additionally,
+one clearing transaction may have multiple chargebacks for partial amounts. The total
+amount being charged back must not exceed the total transaction amount.
+Upon reissuing a Mastercard, Debit Mastercard, or Maestro card with the same primary
+account number (PAN) and a new expiration date, the issuer must include the
+expiration date in all chargeback records.
+In the Single Message System, this is
+an Advice Reason Code/0489
+message.
+Function codes are not used in the
+Single Message System, rather the
+issuer charges back either the full or
+partial amount.
+
+n the Dual Message System, this is a First
+Chargeback/1442 message.
+When the total transaction amount is being
+charged back, DE 24 (Function Code) must
+include a value of 450 (Full Amount).
+When a partial amount is being charged back,
+DE 24 must include a value of 453 (Partial
+Amount).
+Second
+Presentment
+An acquirer may process a second presentment when the acquirer:
+• Believes that the issuer’s chargeback did not fulfill the requirements of the
+chargeback reason code
+• Can provide information that addresses the original reason for the dispute
+A second presentment must be for the total chargeback amount or a lesser amount.
+
+This is an Advice Reason Code/0491
+message.
+Function codes are not used in the
+Single Message System, rather the
+acquirer represents either the full or
+partial amount
+This is a Second Presentment/1240 message.
+When the total transaction amount is being
+second presented, DE 24 (Function Code) must
+include a value of 205 (Full Amount).
+When a partial amount is being second
+presented, DE 24 must include a value of 282
+(Partial Amount).
+
+Arbitration
+Case Filing
+After the chargeback cycles have been completed, the issuer may continue a dispute by
+using the pre-arbitration and arbitration case filing process. When an arbitration case is
+not resolved between the issuer and the acquirer, Mastercard will determine
+responsibility for the dispute.
+A case filing must be for the total second presentment amount or a lesser amount.
+
+Compliance Case Filing
+A compliance case may be filed by either an issuer or an acquirer when:
+• A chargeback doesn’t exist to address the dispute
+• A rule has been violated
+Refer to the Compliance Case Filing chapter for detailed information.
+Reversals
+In the Single Message System (SMS), a chargeback and a second presentment may be reversed
+as described in the Single Message Systems Chargebacks chapter.
+In the Dual Message System (DMS), a chargeback and second presentment may be reversed as
+described in the Global Clearing Management System Reference Manual.
+In the China Switch (CSW), a chargeback and a second presentment may be reversed as
+described in the China Switch User Guide - Customer Portal.
+Rights and Obligations
+The following applies in addition to the rights and obligations described in the Standards:
+• An issuer is limited to one chargeback for each presented transaction amount within the
+time frame applicable for the chargeback reason code. The transaction amount may be
+charged back one time by the issuer, either as a full amount, a partial amount, or multiple
+partial amounts not to exceed the original clearing message amount.
+• Unless expressly permitted by the Standards, a Fee Collection/1740 message associated
+with a dispute may only be processed upon written approval by the other Customer involved
+in the dispute. Such written approval must include the chargeback reference numbers and/or
+case IDs, as applicable, and currency amounts that will be included in the Fee Collection/
+1740 message. For purposes of this rule, a dispute refers to any stage of the chargeback or
+compliance process.
+Both Customers should retain such written approval for a minimum of six months
+
+Examples of Fee Collection/1740 messages expressly permitted by the Standards include,
+but are not limited to, Progressive Handling Fees and the Dispute Administration Fee (DAF).
+Refer to Appendix F Fee Collection Mastercard Network Processing Dual Message Clearing
+System Guide for more information.
+• The issuer, acquirer, merchant, or cardholder must not retain funds, goods, and/or services
+twice for the same transaction. Issuers and acquirers are responsible to research and identify
+refunds prior to each chargeback processing cycle. Issues of this nature must be resolved
+properly during the chargeback and second presentment cycles and within the required time
+frames. A compliance case filing is invalid. Examples include but are not limited to:
+– When an issuer has billed a transaction to its cardholder’s account for payment and the
+issuer has exercised a chargeback, the issuer must credit the cardholder’s account for the
+amount of the successful chargeback.
+– When a cardholder is credited twice (once by the issuer as a result of a chargeback and
+again through a refund processed by the merchant), the acquirer must process a timely
+second presentment which identified a refund was previously processed. A compliance
+case is invalid. When a second presentment is not processed within the required second
+presentment time frame, an acquirer seeking return of the refund amount must do so
+outside of the chargeback and compliance process. An example of outside of the
+chargeback and compliance process includes, but is not limited to, a good faith collection
+letter. In this example, a good faith collection letter is written correspondence from the
+acquirer to the issuer requesting the return of the refunded amount. When a good faith
+collection letter is accepted by the issuer in writing the Fee Collection/1740 message
+must be processed in accordance the Mastercard Network Dual Message Clearing System
+Guide (formerly known as the Global Clearing Management System Reference Manual.
+For the avoidance of doubt:
+– "Refund" means either a refund transaction (as identified with a value of 20 [Credit
+(Purchase Return)] in DE 3 [Processing Code], subfield 1 [Cardholder transaction type]
+of the clearing record) or a Send Payment Transaction Fast Refund to the original card
+(as described in the Mastercard MoneySend and Funding Transactions Program
+Standards).
+– Refund properly documented in second presentment and within time frame:
+When a refund was processed before the second presentment and the timely second
+presentment properly documented the refund, the issuer must not continue the
+dispute for the refunded amount as the refund resolved the chargeback. Upon
+completion of all of the chargeback cycles, if a properly documented pre-arbitration/
+arbitration case is filed, Mastercard will likely rule in favor of the acquirer.
+The two exceptions to the above are when:
+– The issuer or cardholder can clearly document that the refund applied to a different
+transaction. With proper documentation from the cardholder, the issuer may
+continue with the dispute.
+– The refund that was processed before the second presentment was for a partial
+amount of the disputed transaction and the acquirer failed to provide a valid
+remedy for the remainder of the disputed amount. The issuer may continue with
+the dispute for the amount that was not refunded, when applicable.
+– Refund before second presentment and within time frame, but not properly
+documented in second presentment:
+A refund is required to be documented in the second presentment and not in the prearbitration/arbitration case filing. When the first chargeback is valid and timely, if a
+case is filed with Mastercard involving a refund that was processed before the second
+presentment but the second presentment did not properly document the refund,
+Mastercard will likely hold the issuer responsible for the refunded amount and hold the
+acquirer responsible for the fines and fees associated with the case.
+– Refund after second presentment:
+A refund is required to be documented in a timely manner in the second presentment
+and not in the pre-arbitration/arbitration case filing. When a refund was processed
+after the second presentment, an acquirer seeking return of the refund amount must
+do so outside of the arbitration and compliance process. An example of outside of the
+chargeback and compliance process includes, but is not limited to, a good faith
+collection letter. In this example, a good faith collection letter is written correspondence
+from the acquirer to the issuer requesting the return of the refunded amount. When a
+good faith collection letter is accepted by the issuer in writing the Fee Collection/1740
+message must be processed in accordance with the Mastercard Network Dual Message
+Clearing System Guide (formerly known as the Global Clearing Management System
+Reference Manual. In the event an arbitration case is submitted concerning the refund,
+Mastercard will likely rule in favor of the issuer provided the first chargeback was
+timely and valid.
+Hardship Variances
+A hardship variance is considered when a natural disaster causes severe operational difficulties.
+A hardship variance removes the GCMS time frame edits in the dual message system for the
+chargeback cycles of all message reason codes for a specific time period. Removing the time
+frame edits means that GCMS will not reject a message solely because the message was sent
+after the time frame for the cycle. All other requirements of the reason code continue to apply.
+Refer to the Mastercard Network Dual Message Clearing System Guide, (formerly known as the
+Global Clearing Management System Reference Manual and the IPM Clearing Formats manual)
+for additional information.
+Hardship variances are not supported in the Single Message System.

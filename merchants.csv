@@ -1,0 +1,51 @@
+merchant_id,category,risk_score,region
+M001,Groceries,8.0,LATAM
+M002,Electronics,3.6,LATAM
+M003,Groceries,3.2,LATAM
+M004,Clothing,9.8,NA
+M005,Electronics,0.9,APAC
+M006,Clothing,5.5,APAC
+M007,Digital Goods,1.2,LATAM
+M008,Electronics,7.3,EU
+M009,Electronics,2.5,EU
+M010,Services,9.3,NA
+M011,Services,9.1,LATAM
+M012,Clothing,6.4,LATAM
+M013,Digital Goods,7.1,EU
+M014,Travel,2.3,APAC
+M015,Digital Goods,3.2,APAC
+M016,Travel,1.7,NA
+M017,Clothing,4.2,EU
+M018,Travel,7.0,EU
+M019,Digital Goods,1.0,LATAM
+M020,Groceries,3.0,LATAM
+M021,Electronics,8.6,APAC
+M022,Travel,7.2,EU
+M023,Clothing,8.1,EU
+M024,Clothing,4.5,NA
+M025,Groceries,3.2,APAC
+M026,Electronics,3.2,EU
+M027,Clothing,6.4,LATAM
+M028,Clothing,9.7,LATAM
+M029,Travel,4.5,APAC
+M030,Travel,6.6,EU
+M031,Travel,3.1,APAC
+M032,Clothing,4.7,NA
+M033,Clothing,2.7,LATAM
+M034,Groceries,0.7,APAC
+M035,Electronics,5.7,EU
+M036,Services,0.3,NA
+M037,Travel,3.8,APAC
+M038,Clothing,5.3,APAC
+M039,Electronics,9.6,NA
+M040,Digital Goods,2.4,APAC
+M041,Digital Goods,1.7,APAC
+M042,Groceries,4.8,APAC
+M043,Clothing,1.8,NA
+M044,Electronics,6.3,EU
+M045,Travel,2.3,APAC
+M046,Electronics,9.0,LATAM
+M047,Groceries,9.5,APAC
+M048,Travel,2.8,NA
+M049,Clothing,0.3,EU
+M050,Travel,7.8,NA

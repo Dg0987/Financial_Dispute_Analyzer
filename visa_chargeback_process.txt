@@ -1,0 +1,34 @@
+What is a chargeback?
+When a customer disputes a transaction — whether due to fraud, an unrecognized charge or dissatisfaction with a product or service — a payment dispute is raised and you, as the merchant, will be asked to provide supporting evidence. The customer’s bank (the issuing bank) then reviews the case and decides whether to reverse the payment. If the decision is in the customer’s favor, a chargeback is issued, meaning the payment is refunded to the customer and withdrawn from your account.
+The chargeback process
+Chargebacks can be time-consuming and resource-intensive. And, for merchants, the process of responding to disputes, gathering evidence and waiting for resolution can pull focus from day-to-day operations. That’s where automated, data-driven solutions like Verifi, a Visa solution, come in, helping businesses move from a lengthy manual process to near-instant outcomes.
+
+A charge is disputed: It all starts when a customer contacts their bank (the issuing bank) to question a charge.
+Bank reviews the charge: The issuing bank looks into the claim, kickstarting the chargeback process.
+Temporary refund: If the query looks valid, the bank may issue a refund for the amount while investigating.
+The merchant is notified: The business is told about the dispute by its bank (the acquiring bank).
+The merchant responds: The business can challenge the dispute by sharing evidence — such as receipts, shipping confirmations or customer communications — with the issuing bank. Solutions like Order Insight help streamline this process, enabling merchants to share data quickly and efficiently to resolve disputes with less friction.
+A decision is made: The issuing bank looks at all the information. If it decides the chargeback is valid, the customer keeps the refund. If it finds the charge wasn’t fraudulent, it takes back the temporary refund and the business keeps the money.
+
+What causes chargebacks?
+Fraud: Disputes can stem from genuine fraud (like if the cardholder's details are used without permission) or friendly fraud (if a customer forgets or misunderstands a legitimate purchase).
+Authorization errors: Authorization errors can be triggered by technical glitches, human errors or even fraudulent activities.
+Processing errors: These errors may be caused by invalid details (like wrong transaction code or currency), duplicate transactions or when a cardholder mistakenly pays twice by other means.
+Customer disputes: This is when the cardholder disputes the transaction for a specific reason such as goods or services not received, not as described or faulty. It might also occur if you sell counterfeit goods (knowingly or not) or in cases where your returns policy is misunderstood.
+Understanding friendly fraud
+Friendly fraud, also known as chargeback fraud, is when a customer intentionally tries to reverse a legitimate purchase. Instances of friendly fraud have surged in recent years, becoming a major challenge for merchants of all sizes. According to Visa’s latest 2025 Global eCommerce Payments & Fraud Report, chargeback fraud has grown exponentially and accounts for a significant portion of all disputes. It often involves customers falsely claiming they didn’t receive a product or denying a purchase they actually authorized. This can seriously impact businesses. For SMBs, it can mean losses, not just in revenue, but also in extra fees and wasted time. For larger enterprises and fintechs, it can create bigger operational problems, like higher chargeback rates, more resources spent fighting disputes and even reputational damage.
+How merchants can respond to a chargeback
+When a customer queries a transaction, you have the right to respond. Understanding how the dispute process works can help you prevent unnecessary losses.
+
+Challenge the chargeback: If you believe a transaction is legitimate, you have the right to challenge it. Having a smart dispute tool in place can reduce the time and resources typically spent on manual payment dispute responses.
+Collect evidence: Gather receipts, shipping records and customer communications to support your case. Tools like chargeback representment and the Compelling Evidence 3.0 (CE3.0) initiative from Visa make it easier to challenge chargebacks.
+Submit the evidence for review: Submit evidence to your bank (the acquiring bank), which will review your case and pass everything along to the customer’s bank (the issuing bank) for a closer look.
+Close the case: Having reviewed all the information from both sides, the issuing bank makes a decision, which usually closes the case: to reverse or uphold the disputed chargeback.
+Tackle fraud to prevent chargebacks
+Fraud and chargebacks are closely linked, and in many cases, chargebacks stem directly from fraudulent transactions or disputes triggered by misuse. While being prepared to manage chargebacks is essential, the smartest approach is to stop them before they start. Preventing fraud upfront — whether through smarter authentication, better data or real-time tools — can significantly reduce the risk of chargebacks in the future. Here’s how to help prevent fraud from escalating into costly chargebacks.
+
+Preventative measures: Use fraud detection tools, verification methods and secure checkout processes to help prevent fraud-based chargebacks. Features like Card Verification Value (CVV) checks, Address Verification Service (AVS), tokenization and SSL data encryption can protect customer data and prevent suspicious activity that could lead to a chargeback.
+
+Regular monitoring: Keep an eye on your transactions. Spotting patterns or unusual behavior early can help catch potential fraud.
+
+Clear communications: Manage customer expectations to reduce the risk of chargebacks. Make sure your return policies are easy to understand, your product information is accurate and customers have easy access to support.
